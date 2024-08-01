@@ -10,14 +10,10 @@ const ExploreLC = () => {
             <div className={styles.contentWrapper}>
                 <h1>Explore Learning Circles</h1>
                 <p>
-                    An informal mechanism for bringing together learners who are
-                    interested in the same topic from across different fields
-                    and disciplines. A fantastic way to spend a small amount of
-                    time learning about new things with a group of people with
-                    same interests!
+                    Join IEDC today itself to enhance your new ideas
                 </p>
                 <a target="_blank" href="https://app.mulearn.org/learning-circle">
-                    Create/Join Learning Circles
+                    IEDC portal
                 </a>
             </div>
         </div>
