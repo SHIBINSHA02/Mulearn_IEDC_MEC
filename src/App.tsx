@@ -17,7 +17,7 @@ function App() {
             <Navbar />
             <Home />
             <About />
-            {/* <Events /> */}
+            <Events />
             <Gallery />
             <Statistics />
             <ExploreLC />
