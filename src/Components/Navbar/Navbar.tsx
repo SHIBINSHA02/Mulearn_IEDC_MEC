@@ -8,12 +8,16 @@ import data from "../../../data.json";
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState(false);
     const [navbg, setNavBg] = useState(false);
-    function openMenu() {
+
+    const openMenu = () => {
         setopenmenu(!openmenu);
-    }
+    };
+
     const path = useReactPath();
     const navContent = ["home", "about", "gallery", "team", "contact"];
-    useEffect(() => { }, [path]);
+
+    useEffect(() => {}, [path]);
+
     const changeNavBg = () => {
         window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
     };
@@ -24,6 +28,7 @@ const Navbar = () => {
             window.removeEventListener("scroll", changeNavBg);
         };
     }, []);
+
     return (
         <div
             className={styles.navbarWrapper}
@@ -33,7 +38,7 @@ const Navbar = () => {
         >
             <div className={styles.navbarLeft}>
                 <a href="#home">
-                    <ULearn/>
+                    <ULearn />
                     <p>{data.collegeCode}</p>
                 </a>
             </div>
@@ -59,10 +64,16 @@ const Navbar = () => {
                     ))}
                 </div>
                 <button>
-                    <a target="_blank" href="http://app.mulearn.org/register">Join µlearn</a>
+                    <a
+                        target="_blank"
+                        href="http://app.mulearn.org/register"
+                        rel="noopener noreferrer"
+                    >
+                        Join µlearn
+                    </a>
                 </button>
             </div>
-            
+
             <div className={styles.navbarMobile}>
                 <button onClick={openMenu} className={styles.hamburger}>
                     <AiOutlineMenu />
@@ -70,18 +81,14 @@ const Navbar = () => {
                 {openmenu && (
                     <div>
                         {navContent.map((content, i) => (
-                            <a
-                                href={`#${content}`}
-                                key={i.toString() + content}
-                            >
+                            <a href={`#${content}`} key={i.toString() + content}>
                                 <p
                                     style={{
-                                        borderBottom:
-                                            window.location.href.includes(
-                                                `#${content}`
-                                            )
-                                                ? "4px solid #B3B3FF"
-                                                : "",
+                                        borderBottom: window.location.href.includes(
+                                            `#${content}`
+                                        )
+                                            ? "4px solid #B3B3FF"
+                                            : "",
                                         height: "18px",
                                     }}
                                 >
@@ -91,6 +98,9 @@ const Navbar = () => {
                         ))}
                         <button>
                             <a href="http://app.mulearn.org">Join µlearn</a>
+                        </button>
+                        <button>
+                            <a href="http://app.mulearn.org">IEDC portal</a>
                         </button>
                     </div>
                 )}
