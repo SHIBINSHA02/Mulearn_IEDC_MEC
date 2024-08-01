@@ -1,13 +1,13 @@
 {
     "collegeCode": "MCE",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": "Marian Engineering College",
 
     "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
 
     "events": [
         {
-            "month": "Sep",
+            "month": "Oct",
             "date": "29",
             "head": "Event 1",
             "para": "Webinar on Engineering and Industrial Services division of TCS.",
