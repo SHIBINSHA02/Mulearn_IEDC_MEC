@@ -12,7 +12,7 @@ const ExploreLC = () => {
                 <p>
                     Join IEDC today itself to enhance your new ideas
                 </p>
-                <a target="_blank" href="https://app.mulearn.org/learning-circle">
+                <a target="_blank" href="https://forms.fillout.com/t/e15cUVRMRVus">
                     IEDC portal
                 </a>
             </div>
