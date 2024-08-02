@@ -1,5 +1,6 @@
+// src/App.js
 import "./App.css";
-// import { Helmet, HelmetProvider } from "react-helmet-async";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
@@ -10,21 +11,31 @@ import ExploreLC from "./Components/ExploreLC/ExploreLC";
 import Team from "./Components/Team/Team";
 import Connect from "./Components/Connect/Connect";
 import Footer from "./Components/Footer/Footer";
-function App() {
+import PortalPage from "./PortalPage/PortalPage"; // Ensure this path is correct
 
+function App() {
     return (
-        <div className="appWrapper">
-            <Navbar />
-            <Home />
-            <About />
-            <Events />
-            <Gallery />
-            <Statistics />
-            <ExploreLC />
-            <Team />
-            <Connect />
-            <Footer />
-        </div>
+        <Router>
+            <div className="appWrapper">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={
+                        <>
+                            <Home />
+                            <About />
+                            <Events />
+                            <Gallery />
+                            <Statistics />
+                            <ExploreLC />
+                            <Team />
+                            <Connect />
+                            <Footer />
+                        </>
+                    } />
+                    <Route path="/portal" element={<PortalPage />} />
+                </Routes>
+            </div>
+        </Router>
     );
 }
 

@@ -66,10 +66,11 @@ const Navbar = () => {
                 <button>
                     <a
                         target="_blank"
-                        href="http://app.mulearn.org/register"
+                        // href="http://app.mulearn.org/register"
+                        href ="#Conect"
                         rel="noopener noreferrer"
                     >
-                        Join µlearn
+                        Join us
                     </a>
                 </button>
             </div>

@@ -1,15 +1,15 @@
 import { useState } from "react";
-import Button from "../../Components/Button/Button";
-import { Input, TextInput } from "../../Components/FormInput/FormInput";
-import SubHeading2 from "../../Components/SubHeading2/Subheading2";
-import TopGradient from "../../Components/TopGradientBg/TopGradientBg";
+import Button from "./Components/Button/Button";
+import { Input, TextInput } from "./Components/FormInput/FormInput";
+import SubHeading2 from "./Components/SubHeading2/Subheading2";
+import TopGradient from "./Components/TopGradientBg/TopGradientBg";
 import style from "./portalpage.module.css";
 import {
   getValidatedFormData,
   submitPortalData,
-} from "../../services/PortalFormService";
+} from "./services/PortalFormService";
 import { useNavigate } from "react-router";
-import { ROUTES } from "../../Constants/RouterPaths";
+import { ROUTES } from "./Constants/RouterPaths";
 
 function PoralPage() {
   const navigate = useNavigate()
