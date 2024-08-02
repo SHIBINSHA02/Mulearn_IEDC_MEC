@@ -83,6 +83,11 @@ const Statistics = () => {
         };
     }, [data.statistics]);
 
+    const formatKarmaCount = (count: number) => {
+        const formattedCount = (count / 1000).toFixed(1); // Convert to K format with 1 decimal place
+        return `${formattedCount}K+`;
+    };
+
     return (
         <div className={styles.StatWrapper}>
             <h1>Our Statistics</h1>
@@ -91,11 +96,13 @@ const Statistics = () => {
                     {counters.map((counter, index) => (
                         <div key={index}>
                             <h3>
-                                {index >= 0
-                                    ? counter >= 2
-                                        ? `${counter}+`
-                                        : counter
-                                    : counter.toLocaleString()}
+                                {index === 3
+                                    ? formatKarmaCount(counter)
+                                    : index >= 0
+                                        ? counter >= 2
+                                            ? `${counter}+`
+                                            : counter
+                                        : counter.toLocaleString()}
                             </h3>
                             <p>
                                 {index === 0
@@ -121,7 +128,7 @@ const Statistics = () => {
                 </div>
                 <div className={styles.rightContainer}>
                     <ULearn />
-                    <h2>Rank:{data.statistics.rank}</h2>
+                    <h2>Rank: {data.statistics.rank}</h2>
                 </div>
             </div>
         </div>
