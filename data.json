@@ -49,13 +49,13 @@
         "rank": 5
     },
         "team": {
-          "staffAdvisor": {
+          "CAMPUS LEAD MULEARN,COO IEDCs": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png",
             "linkedIn": "https://www.linkedin.com/in/enric-s-neelamkavil/"
           },
-          "campusLead": {
-            "name": "Elon Musk",
+          "CEO IEDC": {
+            "name": "Joan Liz Geogy",
             "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1",
             "linkedIn": "https://www.linkedin.com/in/elon-musk/"
           },
