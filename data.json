@@ -109,9 +109,7 @@
         "designation": "Operations Sub-lead IEDC",
         "image": "https://example.com/images/miablue.png",
         "linkedIn": "https://www.linkedin.com/in/mia-blue/"
-      }
-    },
-    "mulearn": {
+      },
       "marketingSubLeadIEDC": {
         "name": "Dhanush Vishwanathan",
         "designation": "Marketing Sub-lead IEDC",
@@ -123,7 +121,9 @@
         "designation": "Content Writer IEDC",
         "image": "https://example.com/images/oliviayellow.png",
         "linkedIn": "https://www.linkedin.com/in/olivia-yellow/"
-      },
+      }
+    },
+    "mulearn": {
       "mulearnCampusLead": {
         "name": "Adithya A R",
         "designation": "Campus Lead Mulearn",
