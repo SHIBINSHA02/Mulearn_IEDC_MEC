@@ -1,13 +1,20 @@
 import styles from "./Footer.module.css";
 import { Instagram, Twitter, Facebook, LinkedIn } from "./assets/svg";
-import { ULearnWhite } from "../../assets/svg/svg";
-import data from "../../../data.json"
+import { ULearn } from "../../assets/svg/svg";
+import data from "../../../data.json";
+import { useState, useEffect } from "react";
 
 const Footer = () => {
+    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+    useEffect(() => {
+        setCurrentYear(new Date().getFullYear());
+    }, []);
+
     return (
         <div className={styles.FooterWrapper}>
             <div className={styles.topFooter}>
-                <ULearnWhite />
+                <ULearn />
                 <p>
                     Reach us at{" "}
                     <a href={`mailto:${data.email}`}>{data.email}</a>
@@ -47,8 +54,7 @@ const Footer = () => {
             </div>
             <div className={styles.line}></div>
             <div className={styles.ptag}>
-                {" "}
-                <p>Copyright © 2023. All Rights Reserved.</p>
+                <p>Copyright © {currentYear}. All Rights Reserved.</p>
                 <p>µLearn Foundation.</p>
             </div>
         </div>
