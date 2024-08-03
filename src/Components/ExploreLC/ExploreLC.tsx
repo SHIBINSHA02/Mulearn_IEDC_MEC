@@ -1,9 +1,15 @@
 import styles from "./ExploreLC.module.css";
 import image from "./assets/explorelc.svg";
+import { FilloutPopupEmbed } from "@fillout/react";
+import { useState } from "react";
+import "@fillout/react/style.css";
+
 
 const ExploreLC = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <div className={styles.exploreLCWrapper}>
+        <div className={styles.exploreLCWrapper} id="iedc">
             <div className={styles.imageWrapper}>
                 <img src={image} alt="" />
             </div>
@@ -12,15 +18,24 @@ const ExploreLC = () => {
                 <p>
                     Join IEDC today itself to enhance your new ideas
                 </p>
+                <>
+
+                    <button onClick={() => setIsOpen(true)}>
+                        <a>IEDC portal</a>
+                    </button>
+
+                    {isOpen && (
+                        <FilloutPopupEmbed
+                            filloutId="e15cUVRMRVus"
+                            onClose={() => setIsOpen(false)}
+                        />
+                    )}
+                </>
                 {
                     /*<a target="_blank" href="https://forms.fillout.com/t/e15cUVRMRVus">
                     IEDC portal
                 </a>
                 */}
-                <div data-fillout-id="e15cUVRMRVus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium"> 
-                </div>
-                <script src="https://server.fillout.com/embed/v1/">
-                </script>
             </div>
         </div>
     );

@@ -65,9 +65,8 @@ const Navbar = () => {
                 </div>
                 <button>
                     <a
-                        target="_blank"
                         // href="http://app.mulearn.org/register"
-                        href ="#Conect"
+                        href ="#iedc"
                         rel="noopener noreferrer"
                     >
                         Join us
