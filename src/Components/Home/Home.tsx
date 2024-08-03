@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import image from "./assets/homeimg.svg";
-import { BlueStar, WhiteStar, Mu } from "./assets/svg";
+import { BlueStar, WhiteStar } from "./assets/svg";
 import data from '../../../data.json'
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
             <div className={styles.start4}>
                 <WhiteStar size="40px" />
             </div>{" "}
-            <div className={styles.start5}>
+            {/* <div className={styles.start5}>
                 <Mu size="23vw" rotate="30deg" />
             </div>
             <div className={styles.start6}>
@@ -35,7 +35,7 @@ const Home = () => {
             </div>{" "}
             <div className={styles.start8}>
                 <Mu size="7vw" rotate="-10deg" />
-            </div>
+            </div> */}
         </div>
     );
 };
