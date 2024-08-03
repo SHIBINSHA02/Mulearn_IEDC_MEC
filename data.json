@@ -49,93 +49,103 @@
         "rank": 5
     },
         "team": {
-          "CAMPUS LEAD MULEARN,COO IEDCs": {
-            "name": "Enric S Neelamkavil",
+          "campusLead": {
+            "name": "Adithya A R",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png",
             "linkedIn": "https://www.linkedin.com/in/enric-s-neelamkavil/"
           },
-          "CEO IEDC": {
+          "ceoIEDC": {
             "name": "Joan Liz Geogy",
             "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1",
             "linkedIn": "https://www.linkedin.com/in/elon-musk/"
           },
           "campusCoLead": {
-            "name": "John Doe",
+            "name": "K H Arjun",
             "image": "https://example.com/images/johndoe.png",
             "linkedIn": "https://www.linkedin.com/in/john-doe/"
           },
-          "treasurer": {
-            "name": "Jane Smith",
+          "financeLead": {
+            "name": "Govind S B",
             "image": "https://example.com/images/janesmith.png",
             "linkedIn": "https://www.linkedin.com/in/jane-smith/"
           },
           "technicalLead": {
-            "name": "Alice Johnson",
+            "name": "Aswin A Murali",
             "image": "https://example.com/images/alicejohnson.png",
             "linkedIn": "https://www.linkedin.com/in/alice-johnson/"
           },
+          "techLead": {
+            "name" : "Nalin Jyothy",
+            "image": "https://example.com/images/bobbrown.png",
+            "linkedIn": "https://www.linkedin.com/in/bob-brown/"
+          },
           "mediaLead": {
-            "name": "Bob Brown",
+            "name": "Johana Benedict",
             "image": "https://example.com/images/bobbrown.png",
             "linkedIn": "https://www.linkedin.com/in/bob-brown/"
           },
           "contentLead": {
-            "name": "Charlie Davis",
+            "name": "Joshim Paul",
             "image": "https://example.com/images/charliedavis.png",
             "linkedIn": "https://www.linkedin.com/in/charlie-davis/"
           },
           "operationLead": {
-            "name": "Dana Lee",
+            "name": "Karthik K",
             "image": "https://example.com/images/danalee.png",
             "linkedIn": "https://www.linkedin.com/in/dana-lee/"
           },
-          "eventCoordinator": {
-            "name": "Frank Wright",
+          "desginCoordinator": {
+            "name": "Sneha Mariam Mani",
             "image": "https://example.com/images/frankwright.png",
             "linkedIn": "https://www.linkedin.com/in/frank-wright/"
           },
           "marketingLead": {
-            "name": "Grace Harris",
+            "name": "Tomson J Finosh",
             "image": "https://example.com/images/graceharris.png",
             "linkedIn": "https://www.linkedin.com/in/grace-harris/"
           },
-          "communityManager": {
-            "name": "Henry Clark",
+          "communityLead": {
+            "name": "Geo Mathew Joseph",
             "image": "https://example.com/images/henryclark.png",
             "linkedIn": "https://www.linkedin.com/in/henry-clark/"
           },
           "designLead": {
-            "name": "Ivy Scott",
+            "name": "Aditi Ghosh",
             "image": "https://example.com/images/ivyscott.png",
             "linkedIn": "https://www.linkedin.com/in/ivy-scott/"
           },
-          "researchLead": {
-            "name": "Jack White",
+          "financeSubLead": {
+            "name": "Quinn Purple",
+            "image": "https://example.com/images/quinnpurple.png",
+            "linkedIn": "https://www.linkedin.com/in/quinn-purple/"
+          },
+          "muplayAmbassador": {
+            "name": "Nayanika B Gitanjali",
             "image": "https://example.com/images/jackwhite.png",
             "linkedIn": "https://www.linkedin.com/in/jack-white/"
           },
-          "innovationLead": {
-            "name": "Karen Green",
+          "mediaSubLead": {
+            "name": "Sai Vishnu M S",
             "image": "https://example.com/images/karengreen.png",
             "linkedIn": "https://www.linkedin.com/in/karen-green/"
           },
-          "logisticsLead": {
-            "name": "Liam Black",
+          "creativeSubLead": {
+            "name": "Harisankar BL",
             "image": "https://media.licdn.com/dms/image/D5603AQG0w6yYJXE5LQ/profile-displayphoto-shrink_800_800/0/1683743720040?e=1727913600&v=beta&t=ENA2v-E2kCm4OKrHHTGr40c7Bi1DcC_twHSk1fRhkfc",
             "linkedIn": "https://www.linkedin.com/in/shibinsha365/"
           },
-          "sponsorshipLead": {
-            "name": "Mia Blue",
+          "opsSubLeadIEDC": {
+            "name": "Anas N",
             "image": "https://example.com/images/miablue.png",
             "linkedIn": "https://www.linkedin.com/in/mia-blue/"
           },
-          "outreachLead": {
-            "name": "Noah Red",
+          "marketingSubLead": {
+            "name": "Dhanush Vishwanathan",
             "image": "https://example.com/images/noahred.png",
             "linkedIn": "https://www.linkedin.com/in/noah-red/"
           },
-          "publicRelationsLead": {
-            "name": "Olivia Yellow",
+          "contentWriter": {
+            "name": "Nandhitha Sumesh",
             "image": "https://example.com/images/oliviayellow.png",
             "linkedIn": "https://www.linkedin.com/in/olivia-yellow/"
           },
@@ -143,11 +153,6 @@
             "name": "Paul Orange",
             "image": "https://example.com/images/paulorange.png",
             "linkedIn": "https://www.linkedin.com/in/paul-orange/"
-          },
-          "financeLead": {
-            "name": "Quinn Purple",
-            "image": "https://example.com/images/quinnpurple.png",
-            "linkedIn": "https://www.linkedin.com/in/quinn-purple/"
           },
           "hrLead": {
             "name": "Rachel Cyan",
