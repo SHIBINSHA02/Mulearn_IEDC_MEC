@@ -44,6 +44,18 @@
   width: fit-content;
 }
 
+.contentWrapper button {
+  color: white;
+  background-color: #ae59ff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+.contentWrapper button:hover {
+  background-color: rgb(71, 71, 71);
+}
+
 @media screen and (max-width: 900px) {
   .imageWrapper {
     min-width: 250px;
