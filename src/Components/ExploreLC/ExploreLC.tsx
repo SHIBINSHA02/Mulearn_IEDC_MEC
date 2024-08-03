@@ -21,7 +21,7 @@ const ExploreLC = () => {
                 <>
 
                     <button onClick={() => setIsOpen(true)}>
-                        <a>IEDC portal</a>
+                        Join IEDC
                     </button>
 
                     {isOpen && (
