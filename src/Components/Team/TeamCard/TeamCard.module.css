@@ -1,0 +1,67 @@
+.teamCard {
+  display: flex;
+  width: 350px; 
+  height: 250px; 
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  position: relative; /* For positioning LinkedIn icon */
+}
+
+.teamCard__image {
+  flex: 0 0 100px; /* Fixed width for image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  border-radius: 0.5rem;
+  width: 100px; /* Fixed width for photo */
+  height: 100px; /* Fixed height for photo */
+  object-fit: cover;
+}
+
+.teamCard__content {
+  flex: 1;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teamCard__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ad58ff;
+  margin: 0.5rem 0;
+}
+
+.teamCard__designation {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.teamCard__linkedin {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.linkedinimg {
+  width: 24px;
+  height: 24px;
+}
+.teamCard__linkedin {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 10; /* Add z-index to ensure visibility */
+}

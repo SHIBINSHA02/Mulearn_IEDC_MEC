@@ -1,160 +1,54 @@
-import styles from "./Team.module.css";
-import line from "./assets/line.png";
-import line2 from "./assets/line2.png";
-import data from "../../../data.json"
+import React from 'react';
+import styles from './Team.module.css';
+import data from '../../../data.json';
+import TeamCard from './TeamCard/TeamCard';
 
-const Team = () => {
-    return (
-        <div className={styles.teamWrapper} id="team">
-            <h1>Our Team</h1>
-            <div className={styles.teamBodyWrapper}>
-                <div className={styles.teamBgLineWrapper}>
-                    <img src={line} alt="" loading="lazy" />
-                    <img src={line2} alt="" loading="lazy" />
-                    <img src={line} alt="" loading="lazy" />
-                    <img src={line2} alt="" loading="lazy" />
-                </div>
-                <div className={styles.teamMembersDetailsWrapper}>
-                    <div className={`${styles.team} ${styles.team1}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.staffAdvisor.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.staffAdvisor.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Staff Advisor
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team2}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.campusLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.campusLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Campus Lead
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team3}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.campusCoLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.campusCoLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Campus Co-Lead
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team4}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.treasurer.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.treasurer.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Treasurer
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team5}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.technicalLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.technicalLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Technical Lead
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team6}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.mediaLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.mediaLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Media Lead
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team7}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.contentLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.contentLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Content Lead
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`${styles.team} ${styles.team8}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.operationLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.operationLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Operation Lead
-                            </div>
-                        </div>
-                    </div>
-                </div>
+const Team: React.FC = () => {
+  const teamData = [
+    { ...data.team.staffAdvisor, designation: 'Staff Advisor' },
+    { ...data.team.campusLead, designation: 'Campus Lead' },
+    { ...data.team.campusCoLead, designation: 'Campus Co-Lead' },
+    { ...data.team.treasurer, designation: 'Treasurer' },
+    { ...data.team.technicalLead, designation: 'Technical Lead' },
+    { ...data.team.mediaLead, designation: 'Media Lead' },
+    { ...data.team.contentLead, designation: 'Content Lead' },
+    { ...data.team.operationLead, designation: 'Operation Lead' },
+    { ...data.team.eventCoordinator, designation: 'Event Coordinator' },
+    { ...data.team.marketingLead, designation: 'Marketing Lead' },
+    { ...data.team.communityManager, designation: 'Community Manager' },
+    { ...data.team.designLead, designation: 'Design Lead' },
+    { ...data.team.researchLead, designation: 'Research Lead' },
+    { ...data.team.innovationLead, designation: 'Innovation Lead' },
+    { ...data.team.logisticsLead, designation: 'Logistics Lead' },
+    { ...data.team.sponsorshipLead, designation: 'Sponsorship Lead' },
+    { ...data.team.outreachLead, designation: 'Outreach Lead' },
+    { ...data.team.publicRelationsLead, designation: 'Public Relations Lead' },
+    { ...data.team.strategyLead, designation: 'Strategy Lead' },
+    { ...data.team.financeLead, designation: 'Finance Lead' },
+    { ...data.team.hrLead, designation: 'HR Lead' },
+    { ...data.team.partnershipLead, designation: 'Partnership Lead' },
+    { ...data.team.developmentLead, designation: 'Development Lead' },
+    { ...data.team.sustainabilityLead, designation: 'Sustainability Lead' }
+  ];
+
+  return (
+    <div className={styles.teamWrapper} id="team">
+      <h1>Our Team</h1>
+      <div className={styles.teamBodyWrapper}>
+        <div className={styles.teamMembersDetailsWrapper}>
+          {teamData.map((member, index) => (
+            <div key={index} className={styles.teamCardWrapper}>
+              <TeamCard
+                name={member.name}
+                designation={member.designation}
+                image={member.image}
+              />
             </div>
+          ))}
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Team;

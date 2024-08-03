@@ -1,10 +1,7 @@
 {
     "collegeCode": "MCE",
-
     "college": "Marian Engineering College",
-
-    "about": "At the intersection of creativity and technology,IEDC and MuLearn have joined forces to craft a space where ideas come to life and learning knows no bounds. Our collaborative platform is designed to empower innovators, creators, and learners , providing them with a tools, resources and community they need to thrive. Explore, engage, and elevate your potential with us as we drive forward the future of technology and education together.",
-
+    "about": "At the intersection of creativity and technology, IEDC and MuLearn have joined forces to craft a space where ideas come to life and learning knows no bounds. Our collaborative platform is designed to empower innovators, creators, and learners, providing them with the tools, resources, and community they need to thrive. Explore, engage, and elevate your potential with us as we drive forward the future of technology and education together.",
     "events": [
         {
             "month": "May",
@@ -14,7 +11,6 @@
             "img": "https://media.licdn.com/dms/image/D5622AQFcMBZHCSt5AA/feedshare-shrink_1280/0/1716286915632?e=1725494400&v=beta&t=oSzSh6VT41CSvQ3j4pqYE31R6IcBdsl3Zbu2sG9wjek"
         }
     ],
-
     "gallery": {
         "row1": [
             {
@@ -23,9 +19,9 @@
             {
                 "image": "https://mulearn.org/assets/home/Chart.webp"
             },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
+            {
+                "image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
+            }
         ],
         "row2": [
             {
@@ -45,7 +41,6 @@
             }
         ]
     },
-
     "statistics": {
         "studentsCount": 732,
         "learningCircles": 47,
@@ -53,53 +48,135 @@
         "karmaEarned": 498000,
         "rank": 5
     },
-
-    "team": {
-        "staffAdvisor": {
+        "team": {
+          "staffAdvisor": {
             "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "campusLead": {
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png",
+            "linkedIn": "https://www.linkedin.com/in/enric-s-neelamkavil/"
+          },
+          "campusLead": {
             "name": "Elon Musk",
-            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
+            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1",
+            "linkedIn": "https://www.linkedin.com/in/elon-musk/"
+          },
+          "campusCoLead": {
+            "name": "John Doe",
+            "image": "https://example.com/images/johndoe.png",
+            "linkedIn": "https://www.linkedin.com/in/john-doe/"
+          },
+          "treasurer": {
+            "name": "Jane Smith",
+            "image": "https://example.com/images/janesmith.png",
+            "linkedIn": "https://www.linkedin.com/in/jane-smith/"
+          },
+          "technicalLead": {
+            "name": "Alice Johnson",
+            "image": "https://example.com/images/alicejohnson.png",
+            "linkedIn": "https://www.linkedin.com/in/alice-johnson/"
+          },
+          "mediaLead": {
+            "name": "Bob Brown",
+            "image": "https://example.com/images/bobbrown.png",
+            "linkedIn": "https://www.linkedin.com/in/bob-brown/"
+          },
+          "contentLead": {
+            "name": "Charlie Davis",
+            "image": "https://example.com/images/charliedavis.png",
+            "linkedIn": "https://www.linkedin.com/in/charlie-davis/"
+          },
+          "operationLead": {
+            "name": "Dana Lee",
+            "image": "https://example.com/images/danalee.png",
+            "linkedIn": "https://www.linkedin.com/in/dana-lee/"
+          },
+          "eventCoordinator": {
+            "name": "Frank Wright",
+            "image": "https://example.com/images/frankwright.png",
+            "linkedIn": "https://www.linkedin.com/in/frank-wright/"
+          },
+          "marketingLead": {
+            "name": "Grace Harris",
+            "image": "https://example.com/images/graceharris.png",
+            "linkedIn": "https://www.linkedin.com/in/grace-harris/"
+          },
+          "communityManager": {
+            "name": "Henry Clark",
+            "image": "https://example.com/images/henryclark.png",
+            "linkedIn": "https://www.linkedin.com/in/henry-clark/"
+          },
+          "designLead": {
+            "name": "Ivy Scott",
+            "image": "https://example.com/images/ivyscott.png",
+            "linkedIn": "https://www.linkedin.com/in/ivy-scott/"
+          },
+          "researchLead": {
+            "name": "Jack White",
+            "image": "https://example.com/images/jackwhite.png",
+            "linkedIn": "https://www.linkedin.com/in/jack-white/"
+          },
+          "innovationLead": {
+            "name": "Karen Green",
+            "image": "https://example.com/images/karengreen.png",
+            "linkedIn": "https://www.linkedin.com/in/karen-green/"
+          },
+          "logisticsLead": {
+            "name": "Liam Black",
+            "image": "https://media.licdn.com/dms/image/D5603AQG0w6yYJXE5LQ/profile-displayphoto-shrink_800_800/0/1683743720040?e=1727913600&v=beta&t=ENA2v-E2kCm4OKrHHTGr40c7Bi1DcC_twHSk1fRhkfc",
+            "linkedIn": "https://www.linkedin.com/in/shibinsha365/"
+          },
+          "sponsorshipLead": {
+            "name": "Mia Blue",
+            "image": "https://example.com/images/miablue.png",
+            "linkedIn": "https://www.linkedin.com/in/mia-blue/"
+          },
+          "outreachLead": {
+            "name": "Noah Red",
+            "image": "https://example.com/images/noahred.png",
+            "linkedIn": "https://www.linkedin.com/in/noah-red/"
+          },
+          "publicRelationsLead": {
+            "name": "Olivia Yellow",
+            "image": "https://example.com/images/oliviayellow.png",
+            "linkedIn": "https://www.linkedin.com/in/olivia-yellow/"
+          },
+          "strategyLead": {
+            "name": "Paul Orange",
+            "image": "https://example.com/images/paulorange.png",
+            "linkedIn": "https://www.linkedin.com/in/paul-orange/"
+          },
+          "financeLead": {
+            "name": "Quinn Purple",
+            "image": "https://example.com/images/quinnpurple.png",
+            "linkedIn": "https://www.linkedin.com/in/quinn-purple/"
+          },
+          "hrLead": {
+            "name": "Rachel Cyan",
+            "image": "https://example.com/images/rachelcyan.png",
+            "linkedIn": "https://www.linkedin.com/in/rachel-cyan/"
+          },
+          "partnershipLead": {
+            "name": "Sam Indigo",
+            "image": "https://example.com/images/samindigo.png",
+            "linkedIn": "https://www.linkedin.com/in/sam-indigo/"
+          },
+          "developmentLead": {
+            "name": "Tina Violet",
+            "image": "https://example.com/images/tinaviolet.png",
+            "linkedIn": "https://www.linkedin.com/in/tina-violet/"
+          },
+          "sustainabilityLead": {
+            "name": "Uma Magenta",
+            "image": "https://example.com/images/umamagenta.png",
+            "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
+          }
+        
         },
-        "campusCoLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "treasurer": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "technicalLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "mediaLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "contentLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "operationLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        }
-    },
-
+      
     "discordLink": "",
-
     "whatsAppLink": "",
-
     "email": "mulearn@cce.edu.in",
-
     "linkedIn": "",
-
     "instagram": "",
-
     "twitter": "",
-
     "facebook": ""
 }
