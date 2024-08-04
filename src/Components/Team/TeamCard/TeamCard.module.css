@@ -1,7 +1,7 @@
 .teamCard {
   display: flex;
-  width: 350px; 
-  height: 250px; 
+  width: 450px; 
+  height: 200px; 
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
