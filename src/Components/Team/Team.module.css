@@ -1,23 +1,21 @@
-/* Team.module.css */
-
 .teamWrapper {
-    padding: 2rem;
+    padding: 2rem; /* Space from left and right sides */
     background-color: #fff;
     text-align: center;
 }
 
 .teamBodyWrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     justify-items: center;
 }
 
 .teamMembersDetailsWrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
     gap: 1rem;
     width: 100%;
+    padding: 0 1rem; /* Add padding to the sides */
     justify-content: center; /* Center align cards */
 }
 
