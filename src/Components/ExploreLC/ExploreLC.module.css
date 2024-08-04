@@ -1,94 +1,93 @@
-.exploreLCWrapper {
+.explore {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 0px 5vw;
-  flex-wrap: wrap;
-  background: url("./assets/bg.svg") center center/cover no-repeat;
+  padding: 4rem 5vw;
+  background-color: #f3e6ff;
 }
 
-.imageWrapper {
-  width: 50%;
+.imageContainer {
+  flex: 1;
   min-width: 300px;
+  max-width: 600px;
 }
 
-.imageWrapper img {
+.image {
   width: 100%;
+  height: auto;
 }
 
-.contentWrapper {
+.content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  min-width: 400px;
-  text-align: center;
-  gap: 4vh;
   align-items: center;
+  gap: 2rem;
+  text-align: center;
+  max-width: 600px;
 }
 
-.contentWrapper h1 {
+.title {
   color: #ae59ff;
-  font-size: 35px;
+  font-size: 2.5rem;
+  margin: 0;
 }
 
-.contentWrapper p {
-  font-size: 18px;
+.description {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
-.contentWrapper a {
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
   color: white;
   background-color: #ae59ff;
+  border: none;
   border-radius: 8px;
-  padding: 10px 20px;
-  width: fit-content;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.contentWrapper button {
-  color: white;
-  background-color: #ae59ff;
-  border-radius: 8px;
-  padding: 10px 20px;
-  width: fit-content;
+.button:hover {
+  background-color: #8e3dd4;
 }
 
-.contentWrapper button:hover {
-  background-color: rgb(71, 71, 71);
+@media screen and (max-width: 1024px) {
+  .explore {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .imageContainer,
+  .content {
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 900px) {
-  .imageWrapper {
-    min-width: 250px;
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 2rem;
   }
 
-  .contentWrapper {
-    min-width: 300px;
-    gap: 2vh;
-  }
-
-  .contentWrapper h1 {
-    font-size: 28px;
-  }
-
-  .contentWrapper p {
+  .description {
     font-size: 1rem;
   }
-}
 
-@media screen and (max-width: 670px) {
-  .exploreLCWrapper {
-    padding-bottom: 5vh;
-  }
-
-  .imageWrapper {
-    width: 80%;
-  }
-
-  .contentWrapper {
+  .buttonGroup {
+    flex-direction: column;
     width: 100%;
   }
 
-  .contentWrapper p {
-    font-size: .8rem;
+  .button {
+    width: 100%;
   }
 }

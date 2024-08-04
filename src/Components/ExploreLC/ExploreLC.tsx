@@ -1,45 +1,42 @@
-import styles from "./ExploreLC.module.css";
-import image from "./assets/explorelc.svg";
+import React, { useState } from 'react';
 import { FilloutPopupEmbed } from "@fillout/react";
-import { useState } from "react";
 import "@fillout/react/style.css";
+import styles from "./ExploreLC.module.css";
+import image from "./assets/saly-explore.png";
+
 
 
 const ExploreLC = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    return (
-        <div className={styles.exploreLCWrapper} id="iedc">
-            <div className={styles.imageWrapper}>
-                <img src={image} alt="" />
-            </div>
-            <div className={styles.contentWrapper}>
-                <h1>Explore our communities </h1>
-                <p>
-                    Join IEDC today itself to enhance your new ideas
-                </p>
-                <>
-
-                    <button onClick={() => setIsOpen(true)}>
-                        Join IEDC
-                    </button>
-
-                    {isOpen && (
-                        <FilloutPopupEmbed
-                            filloutId="e15cUVRMRVus"
-                            onClose={() => setIsOpen(false)}
-                        />
-                    )}
-                </>
-                {
-                    /*<a target="_blank" href="https://forms.fillout.com/t/e15cUVRMRVus">
-                    IEDC portal
-                </a>
-                */}
-            </div>
+  return (
+    <section className={styles.explore} id="explore">
+      <div className={styles.imageContainer}>
+        <img src={image} alt="Explore illustration" className={styles.image} />
+      </div>
+      <div className={styles.content}>
+        <h2 className={styles.title}>Discover our Networks</h2>
+        <p className={styles.description}>
+          Explore Our Communities. Connect, collaborate and grow your skills with MuLearn. 
+          Share your groundbreaking ideas and shape the future with IEDC.
+        </p>
+        <div className={styles.buttonGroup}>
+          <a href="https://mulearn.org/" target="_blank" className={styles.button}>
+            Join MuLearn
+          </a>
+          <button onClick={() => setIsOpen(true)} className={styles.button}>
+            IEDC Portal
+          </button>
         </div>
-    );
+      </div>
+      {isOpen && (
+        <FilloutPopupEmbed
+          filloutId="e15cUVRMRVus"
+          onClose={() => setIsOpen(false)}
+        />
+      )}
+    </section>
+  );
 };
 
 export default ExploreLC;
-
