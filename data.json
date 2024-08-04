@@ -120,6 +120,13 @@
         "image": "/Teamphoto/geo.png",
         "linkedIn": "https://www.linkedin.com/in/geomathewjoseph"
       },
+      "mulearnC": {
+        "name": "Thomson",
+        "designation": "Chief Marketing Officer IEDC",
+        "designation2": "Content Coordinator µlearn",
+        "image": "./Teamphoto/tomson.png",
+        "linkedIn": "https://www.linkedin.com/in/john-doe/"
+      },
       "cooIEDC2": {
         "name": "Karthik K",
         "designation": "Chief Socials Officer IEDC",
@@ -155,13 +162,7 @@
         "image": "/Teamphoto/Joshim.png",
         "linkedIn": "https://www.linkedin.com/in/joshim-paul-95083a306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
-      "financeLeadIEDC": {
-        "name": "Anas N",
-        "designation": "Sub Opeartions OFficer",
-        "designation2": "",
-        "image": "./Teamphoto/anas.png",
-        "linkedIn": "https://www.linkedin.com/in/anas-n-5a845820a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-      },
+
       "mulearnContentLead": {
         "name": "Shibinsha S ",
         "designation": "Sub Technical Officer IEDC",
@@ -175,6 +176,14 @@
         "designation2": "Tech Coordinator µlearn",
         "image": "/Teamphoto/Janu.png",
         "linkedIn": "https://www.linkedin.com/in/janukrishna-a-s-4ba8301b2/"
+      },
+      
+      "financeLeadIEDC": {
+        "name": "Anas N",
+        "designation": "Sub Opeartions OFficer",
+        "designation2": "",
+        "image": "./Teamphoto/anas.png",
+        "linkedIn": "https://www.linkedin.com/in/anas-n-5a845820a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
       },
       
       
