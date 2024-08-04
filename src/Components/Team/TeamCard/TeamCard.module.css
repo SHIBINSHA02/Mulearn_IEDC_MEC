@@ -19,8 +19,8 @@
 
 .photo {
   border-radius: 0.5rem;
-  width: 100px; 
-  height: 100px;
+  width: 150px; 
+  height: 150px;
   object-fit: cover;
   background-image:url("./Frame.png");;
 }
