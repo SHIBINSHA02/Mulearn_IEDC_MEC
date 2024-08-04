@@ -1,5 +1,5 @@
 import styles from "./Statistics.module.css";
-import { ULearn } from "../../assets/svg/svg";
+import { ULearnMCE } from "../../assets/svg/svg";
 import data from "../../../data.json"
 import { useEffect, useRef, useState } from "react";
 
@@ -127,8 +127,8 @@ const Statistics = () => {
                     ))}
                 </div>
                 <div className={styles.rightContainer}>
-                    <ULearn />
-                    <h2>Rank: {data.statistics.rank}</h2>
+                    <ULearnMCE />
+                    <h2>RANK: {data.statistics.rank}</h2>
                 </div>
             </div>
         </div>

@@ -57,6 +57,10 @@
   justify-content: center;
 }
 
+.rightContainer h2{
+  color: #ae59ff;
+}
+
 @media screen and (max-width: 540px) {
   .contentDiv {
     flex-direction: column-reverse;
