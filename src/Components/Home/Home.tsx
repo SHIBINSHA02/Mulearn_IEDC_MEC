@@ -1,10 +1,9 @@
 import styles from "./Home.module.css";
 import image from "./assets/headphone man svg.svg"
-import data from '../../../data.json'
 
 const Home: React.FC = () => {
     return (
-      <div className={styles.HomeWrapper}>
+      <div id="home" className={styles.HomeWrapper}>
         <div className={styles.contentWrapper}>
           <div className={styles.textWrapper}>
             <h1>Revamp the Future</h1>
