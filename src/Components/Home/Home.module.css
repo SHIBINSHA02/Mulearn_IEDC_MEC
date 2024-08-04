@@ -2,7 +2,7 @@
   height: fit-content;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #c18bf5 0%, #fff 68.23%);
+  background: url("./assets/bg1 svg.svg") center center/cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,8 +19,8 @@
 .contentWraper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 20vh;
+  align-items: left;
+  margin-top: 10vh;
   position: relative;
   z-index: 9900;
 }
@@ -28,14 +28,14 @@
 .contentWraper h1 {
   margin: 0%;
   line-height: 1;
-  font-size: 7vw;
+  font-size: 5vw;
   font-weight: 600;
 }
 
 .contentWraper h2 {
   margin: 0%;
   line-height: 1;
-  font-size: 9vw;
+  font-size: 7vw;
   font-weight: 700;
   margin-top: -3vw;
   color: #ae59ff;
@@ -46,6 +46,11 @@
   font-size: 1.5vw;
   width: 25vw;
   text-align: center;
+}
+
+.contentWraper img {
+  width: 40%;
+  margin-left: 700px;
 }
 
 @media screen and (max-width: 900px) {

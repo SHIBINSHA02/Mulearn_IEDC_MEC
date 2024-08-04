@@ -1,18 +1,19 @@
 import styles from "./Home.module.css";
-import image from "./assets/homeimg.svg";
-import { BlueStar, WhiteStar } from "./assets/svg";
+import image from "./assets/headphone man svg.svg"
 import data from '../../../data.json'
 
 const Home = () => {
     return (
         <div id="home" className={styles.HomeWrapper}>
+
             <div className={styles.contentWraper}>
                 <h1>Welcome to the</h1>
                 <h2>µverse</h2>
                 <p>{data.college}</p>
+                <img src={image} alt="" sizes="100vw"  />
             </div>
-            <img src={image} alt="" />
-            <div className={styles.start1}>
+
+            {/* <div className={styles.start1}>
                 <BlueStar size="50px" />
             </div>{" "}
             <div className={styles.start2}>
@@ -23,7 +24,7 @@ const Home = () => {
             </div>
             <div className={styles.start4}>
                 <WhiteStar size="40px" />
-            </div>{" "}
+            </div>{" "} */}
             {/* <div className={styles.start5}>
                 <Mu size="23vw" rotate="30deg" />
             </div>
