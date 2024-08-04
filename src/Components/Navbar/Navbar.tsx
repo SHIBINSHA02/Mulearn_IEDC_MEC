@@ -32,7 +32,7 @@ const Navbar = () => {
         <div
             className={styles.navbarWrapper}
             style={{
-                background: navbg ? "rgb(191 186 186)" : "transparent",
+                background: navbg ? "rgb(174 89 255 / 64%)" : "transparent",
             }}
         >
             <div className={styles.navbarLeft}>
