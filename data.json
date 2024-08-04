@@ -59,14 +59,14 @@
       "cooIEDC1": {
         "name": "Adithya A R",
         "designation": "Chief Operations Officer IEDC",
-        "designation2": "Campus Lead Mulearn",
+        "designation2": "Campus Lead μlearn",
         "image": "./Teamphoto/adithya.png",
         "linkedIn": "https://www.linkedin.com/in/elon-musk/"
       },
       "cooIEDC2": {
         "name": "Karthik K",
         "designation": "Chief Socials Officer IEDC",
-        "designation2": "Operations Lead Mulearn",
+        "designation2": "Operations Lead μlearn",
         "image": "./Teamphoto/Karthik 2.png",
         "linkedIn": "https://www.linkedin.com/in/elon-musk/"
       },
@@ -94,35 +94,35 @@
       "communityLeadIEDC": {
         "name": "Geo Mathew Joseph",
         "designation": "Chief Community Officer IEDC",
-        "designation2": "Cyber Security IG Lead Mulearn",
+        "designation2": "Cyber Security IG Lead μlearn",
         "image": "/Teamphoto/geo.png",
         "linkedIn": "https://www.linkedin.com/in/henry-clark/"
       },
       "financeSubLeadIEDC": {
         "name": "Janukrishna A S",
         "designation": "Sub Community Officer IEDC",
-        "designation2": "Tech Coordinator Mulearn",
+        "designation2": "Tech Coordinator μlearn",
         "image": "/Teamphoto/Janu 2.png",
         "linkedIn": "https://www.linkedin.com/in/quinn-purple/"
       },
       "creativeSubLeadIEDC": {
         "name": "KH Arjun",
         "designation": "Chief Creative Officer IEDC",
-        "designation2": "Campus Co-Lead , Web IG Lead Mulearn",
+        "designation2": "Campus Co-Lead , Web IG Lead μlearn",
         "image": "https://example.com/images/karengreen.png",
         "linkedIn": "https://www.linkedin.com/in/karen-green/"
       },
       "opsSubLeadIEDC": {
         "name": "Harisankar BL",
         "designation": "Sub Creative Officer IEDC",
-        "designation2": "Media Team Member Mulearn",
+        "designation2": "Media Team Member μlearn",
         "image": "https://example.com/images/miablue.png",
         "linkedIn": "https://www.linkedin.com/in/mia-blue/"
       },
       "marketingSubLeadIEDC": {
         "name": "Aditi Ghosh",
         "designation": "Creative Team Graphic Designer IEDC",
-        "designation2": "Design Team Lead Mulearn",
+        "designation2": "Design Team Lead μlearn",
         "image": "https://example.com/images/noahred.png",
         "linkedIn": "https://www.linkedin.com/in/noah-red/"
       },
@@ -136,7 +136,7 @@
       "mulearnCampusLead": {
         "name": "Sneha Mariam Mani",
         "designation": "Creative Team Graphic Designer IEDC",
-        "designation2": "Design Coordinator",
+        "designation2": "Design Coordinator μLearn",
         "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png",
         "linkedIn": "https://www.linkedin.com/in/enric-s-neelamkavil/"
       },
@@ -150,7 +150,7 @@
       "mulearnTechLead": {
         "name": "Nayanika B Gitanjali",
         "designation": "Sub Documentation Officer IEDC",
-        "designation2": "μplay Campus Ambassador Mulearn",
+        "designation2": "μplay Campus Ambassador μlearn",
         "image": "https://example.com/images/bobbrown.png",
         "linkedIn": "https://www.linkedin.com/in/bob-brown/"
       },
@@ -164,83 +164,83 @@
       "mulearnContentLead": {
         "name": "Shibinsha S ",
         "designation": "Sub Technical Officer IEDC",
-        "designation2": "Tech Coordinator Mulearn",
+        "designation2": "Tech Coordinator μlearn",
         "image": "https://example.com/images/charliedavis.png",
         "linkedIn": "https://www.linkedin.com/in/charlie-davis/"
       },
       "mulearnContentTeam": {
         "name": "Nalin Jyothy ",
-        "designation": "Tech Lead Mulearn",
+        "designation": "Tech Lead μlearn",
         "designation2": "",
         "image": "https://example.com/images/charliedavis.png",
         "linkedIn": "https://www.linkedin.com/in/charlie-davis/"
       },
       "mulearnOperationLead": {
         "name": "Johana Benedict",
-        "designation": "Social Media Lead Mulearn",
+        "designation": "Social Media Lead μlearn",
         "designation2": "",
         "image": "https://example.com/images/danalee.png",
         "linkedIn": "https://www.linkedin.com/in/dana-lee/"
       },
       "mulearnDesignTeam": {
         "name": "Sai Vishnu M S ",
-        "designation": "Social Media Coordinator Mulearn",
+        "designation": "Social Media Coordinator μlearn",
         "designation2": "",
         "image": "https://example.com/images/frankwright.png",
         "linkedIn": "https://www.linkedin.com/in/frank-wright/"
       },
       "mulearnUIUXIGLead": {
         "name": "Bobson Gomez",
-        "designation": "UI/UX IG Lead Mulearn",
+        "designation": "UI/UX IG Lead μlearn",
         "designation2": "",
         "image": "https://example.com/images/rachelcyan.png",
         "linkedIn": "https://www.linkedin.com/in/rachel-cyan/"
       },
       "mulearnAIIGLead": {
         "name": "Arjun Jayakumar",
-        "designation": "AI IG Lead Mulearn",
+        "designation": "AI IG Lead μlearn",
         "designation2": "",
         "image": "https://example.com/images/samindigo.png",
         "linkedIn": "https://www.linkedin.com/in/sam-indigo/"
       },
       "mulearnMediaLead": {
         "name": "A K Amarjith",
-        "designation": "Media Lead Mulearn",
+        "designation": "Media Lead μlearn",
         "designation2": "",
         "image": "https://example.com/images/tinaviolet.png",
         "linkedIn": "https://www.linkedin.com/in/tina-violet/"
       },
       "mulearnMediaTeam1": {
         "name": "Anandhu Anilkumar",
-        "designation": "Media Team Mulearn",
+        "designation": "Media Team μlearn",
         "designation2": "",
         "image": "https://example.com/images/umamagenta.png",
         "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
       },
       "mulearnMediaTeam2": {
         "name": "Sanjay S",
-        "designation": "Media Team Mulearn",
+        "designation": "Media Team μlearn",
         "designation2": "",
         "image": "https://example.com/images/umamagenta.png",
         "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
       },
       "mulearnMediaTeam3": {
         "name": "Alen Suresh",
-        "designation": "Media Team Mulearn",
+        "designation": "Media Team μlearn",
         "designation2": "",
         "image": "https://example.com/images/umamagenta.png",
         "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
       },
       "mulearnMediaTeam5": {
         "name": "Muhammed Yazeen",
-        "designation": "Media Team Mulearn",
+        "designation": "Media Team μlearn",
         "designation2": "",
         "image": "https://example.com/images/umamagenta.png",
         "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
       },
       "mulearnMediaTeam6": {
         "name": "Shanu Sudhakaran",
-        "designation": "Media Team Mulearn",
+        "designation": "Media Team μlearn",
         "designation2": "",
         "image": "https://example.com/images/umamagenta.png",
         "linkedIn": "https://www.linkedin.com/in/uma-magenta/"
