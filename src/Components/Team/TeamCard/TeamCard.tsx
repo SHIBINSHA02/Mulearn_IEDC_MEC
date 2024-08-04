@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './TeamCard.module.css'; // Importing CSS styles specific to this component
+import styles from './TeamCard.module.css';
+import linkedInIcon from './linkedin.png';
 
 const defaultImage = 'https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg';
-const linkedInIcon = './linkedin.png';
 
 interface TeamCardProps {
     name: string;
@@ -37,11 +37,8 @@ const TeamCard: React.FC<TeamCardProps> = ({ name, designation, image, linkedIn 
                         alt="LinkedIn"
                         className={styles.linkedinimg}
                     />
-                    {/* Fallback text */}
-                    <span>LinkedIn</span>
                 </a>
             )}
-
             </div>
         </div>
     );
