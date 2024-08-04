@@ -53,7 +53,7 @@
         "name": "Joan Liz Geogy",
         "designation": "Chief Executive Officer IEDC",
         "designation2": "",
-        "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1",
+        "image": "/Teamphoto/JO.png",
         "linkedIn": "https://www.linkedin.com/in/elon-musk/"
       },
       "cooIEDC1": {
@@ -81,28 +81,28 @@
         "name": "Govind S B",
         "designation": "Chief Finance Officer IEDC",
         "designation2": "",
-        "image": "https://example.com/images/alicejohnson.png",
+        "image": "/Teamphoto/govind.png",
         "linkedIn": "https://www.linkedin.com/in/alice-johnson/"
       },
       "marketingLeadIEDC": {
         "name": "Vaishnav R S",
         "designation": "Sub Finance Officer IEDC",
         "designation2": "",
-        "image": "https://example.com/images/graceharris.png",
+        "image": "/Teamphoto/Vaishnav.png",
         "linkedIn": "https://www.linkedin.com/in/grace-harris/"
       },
       "communityLeadIEDC": {
         "name": "Geo Mathew Joseph",
         "designation": "Chief Community Officer IEDC",
         "designation2": "Cyber Security IG Lead Mulearn",
-        "image": "https://example.com/images/henryclark.png",
+        "image": "/Teamphoto/geo.png",
         "linkedIn": "https://www.linkedin.com/in/henry-clark/"
       },
       "financeSubLeadIEDC": {
         "name": "Janukrishna A S",
         "designation": "Sub Community Officer IEDC",
         "designation2": "Tech Coordinator Mulearn",
-        "image": "https://example.com/images/quinnpurple.png",
+        "image": "/Teamphoto/Janu 2.png",
         "linkedIn": "https://www.linkedin.com/in/quinn-purple/"
       },
       "creativeSubLeadIEDC": {
