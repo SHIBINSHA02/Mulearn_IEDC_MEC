@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { ULearn } from "../../assets/svg/svg";
 import { useReactPath } from "./path.hook.ts";
 import { AiOutlineMenu } from "react-icons/ai";
-import data from "../../../data.json";
 
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState(false);
@@ -19,7 +18,7 @@ const Navbar = () => {
     useEffect(() => {}, [path]);
 
     const changeNavBg = () => {
-        window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
+        window.scrollY >= 600 ? setNavBg(true) : setNavBg(false);
     };
 
     useEffect(() => {
@@ -33,7 +32,7 @@ const Navbar = () => {
         <div
             className={styles.navbarWrapper}
             style={{
-                background: navbg ? "rgba(255,255,255,0.4)" : "transparent",
+                background: navbg ? "rgb(191 186 186)" : "transparent",
             }}
         >
             <div className={styles.navbarLeft}>
@@ -96,10 +95,7 @@ const Navbar = () => {
                             </a>
                         ))}
                         <button>
-                            <a href="http://app.mulearn.org">Join µlearn</a>
-                        </button>
-                        <button>
-                            <a href="http://app.mulearn.org">IEDC portal</a>
+                            <a href="#iedc">Join us</a>
                         </button>
                     </div>
                 )}
