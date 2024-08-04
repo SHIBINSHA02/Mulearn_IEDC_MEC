@@ -17,12 +17,12 @@ const ExploreLC = () => {
       <div className={styles.content}>
         <h2 className={styles.title}>Discover our Networks</h2>
         <p className={styles.description}>
-          Explore Our Communities. Connect, collaborate and grow your skills with MuLearn. 
+          Explore Our Communities. Connect, collaborate and grow your skills with µLearn. 
           Share your groundbreaking ideas and shape the future with IEDC.
         </p>
         <div className={styles.buttonGroup}>
           <a href="https://mulearn.org/" target="_blank" className={styles.button}>
-            Join MuLearn
+            Join µLearn
           </a>
           <button onClick={() => setIsOpen(true)} className={styles.button}>
             IEDC Portal
