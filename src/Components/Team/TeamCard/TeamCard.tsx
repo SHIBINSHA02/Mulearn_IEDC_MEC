@@ -7,11 +7,12 @@ const defaultImage = 'https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP
 interface TeamCardProps {
     name: string;
     designation: string;
+    designation2: string;
     image?: string;
     linkedIn?: string;
 }
 
-const TeamCard: React.FC<TeamCardProps> = ({ name, designation, image, linkedIn }) => {
+const TeamCard: React.FC<TeamCardProps> = ({ name, designation,designation2, image, linkedIn }) => {
     return (
         <div className={styles.teamCard}>
             <div className={styles.teamCard__image}>
@@ -25,6 +26,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ name, designation, image, linkedIn 
             <div className={styles.teamCard__content}>
                 <h3 className={styles.teamCard__name}>{name}</h3>
                 <p className={styles.teamCard__designation}>{designation}</p>
+                <p className={styles.teamCard__designation}>{designation2}</p>
                 {linkedIn && (
                 <a
                     href={linkedIn}

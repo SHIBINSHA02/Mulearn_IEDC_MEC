@@ -4,8 +4,7 @@ import data from '../../../data.json';
 import TeamCard from './TeamCard/TeamCard';
 
 const Team: React.FC = () => {
-  const mulearnData = Object.values(data.team.mulearn);
-  const IEDCData = Object.values(data.team.IEDC);
+  const Data = Object.values(data.team);
 
   const renderTeamCards = (teamData: any) => {
     return Object.keys(teamData).map((key) => (
@@ -13,6 +12,7 @@ const Team: React.FC = () => {
         <TeamCard
           name={teamData[key].name}
           designation={teamData[key].designation}
+          designation2={teamData[key].designation2}
           image={teamData[key].image}
           linkedIn={teamData[key].linkedIn}
         />
@@ -23,16 +23,9 @@ const Team: React.FC = () => {
   return (
     <div className={styles.teamWrapper} id="team">
       <h1>Our Team</h1>
-      <h2>IEDC Team</h2>
       <div className={styles.teamBodyWrapper} id="IEDC">
         <div className={styles.teamMembersDetailsWrapper}>
-          {renderTeamCards(IEDCData)}
-        </div>
-      </div>
-      <h2>Mulearn Team</h2>
-      <div className={styles.teamBodyWrapper} id="mulearn">
-        <div className={styles.teamMembersDetailsWrapper}>
-          {renderTeamCards(mulearnData)}
+          {renderTeamCards(Data)}
         </div>
       </div>
     </div>
