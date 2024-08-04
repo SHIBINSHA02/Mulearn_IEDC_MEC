@@ -150,9 +150,9 @@
       },
       "mulearn_content": {
         "name": "Joshim Paul",
-        "designation": "",
+        "designation": "Content Lead µlearn",
         "designation2": "",
-        "image": "./Teamphoto/",
+        "image": "/Teamphoto/Joshim.png",
         "linkedIn": "https://www.linkedin.com/in/joshim-paul-95083a306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       "financeLeadIEDC": {
@@ -188,9 +188,9 @@
       
       "mulearn_opetion": {
         "name": "Hannah Susan Thomas",
-        "designation": "",
-        "designation2": "./Teamphoto/",
-        "image": "./Teamphoto/hannah.png",
+        "designation": "Operations Coordinator",
+        "designation2": "",
+        "image": "/Teamphoto/hannah.png",
         "linkedIn": "https://www.linkedin.com/in/hannah-susan-thomas-31859a2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       
@@ -265,7 +265,7 @@
         "name": "Sanjay S",
         "designation": "Media Team µlearn",
         "designation2": "",
-        "image": "./Teamphoto/Sanjay 2.png",
+        "image": "./Teamphoto/Sanjay.png",
         "linkedIn": "https://www.linkedin.com/in/sanjay-s-b70616317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       "mulearnMediaTeam3": {
@@ -279,7 +279,7 @@
         "name": "Muhammed Yazeen",
         "designation": "Media Team µlearn",
         "designation2": "",
-        "image": "./Teamphoto/Yazeen 2.png",
+        "image": "./Teamphoto/Yazeen.png",
         "linkedIn": "https://www.linkedin.com"
       },
       "mulearnMediaTeam6": {
