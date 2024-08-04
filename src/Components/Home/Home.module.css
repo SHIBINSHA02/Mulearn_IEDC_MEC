@@ -37,27 +37,27 @@
 }
 
 .textWrapper h1 {
-  font-size: 5vw;
+  margin-top: 15vh;
+  font-size: 5.5vw;
   font-weight: 400;
 }
 
 .textWrapper h2 {
   margin-top: 1vh;
   padding-top: 10px;
-  font-size: 1.3vw;
-  width: 25vw;
+  font-size: 1.8vw;
 }
 
 .textWrapper p {
-  margin-top: 5vw;
+  margin-top: 3vw;
   font-size: 1.2vw;
-  width: 25vw;
+  width: 35vw;
   text-align: left;
 }
 
 .contentWrapper img {
   width: 45%;
-  margin-left: 5vw; /* Adjusted margin for better spacing */
+  margin-bottom: 10vh;
 }
 
 /* Media queries for responsiveness */
