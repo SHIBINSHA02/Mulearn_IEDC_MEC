@@ -1,5 +1,5 @@
 //import React from 'react';
-import ulearnImage from '../images/logo.svg'; // Adjust the path as necessary
+import ulearnImage from '../images/Logo.svg'; // Adjust the path as necessary
 
 export const ULearnnew = () => {
   return (
