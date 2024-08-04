@@ -19,9 +19,10 @@
 
 .photo {
   border-radius: 0.5rem;
-  width: 100px; /* Fixed width for photo */
-  height: 100px; /* Fixed height for photo */
+  width: 100px; 
+  height: 100px;
   object-fit: cover;
+  background-image:url("./Frame.png");;
 }
 
 .teamCard__content {
