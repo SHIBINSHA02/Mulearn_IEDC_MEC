@@ -50,24 +50,24 @@
   },
   "team": {
     "IEDC_faculty1": {
-      "name": "Sir1",
-      "designation": "someone",
+      "name": "Dr.Manoj",
+      "designation": "Nodal Officer",
       "designation2": "",
-      "image": "",
+      "image": "/Teamphoto/Manoj.png",
       "linkedIn": "https://www.linkedin.com/in/elon-musk/"
     },
     "IEDC_faculty2": {
-      "name": "Sir1",
-      "designation": "someone",
+      "name": "Sonia",
+      "designation": "Nodal Officer",
       "designation2": "",
       "image": "",
       "linkedIn": "https://www.linkedin.com/in/elon-musk/"
     },
     "IEDC_faculty3": {
-      "name": "Sir1",
-      "designation": "someone",
+      "name": "Vishnu",
+      "designation": "Ass. Nodal Officer",
       "designation2": "",
-      "image": "",
+      "image": "/Teamphoto/vishnu.png",
       "linkedIn": "https://www.linkedin.com/in/elon-musk/"
     },
       "ceoIEDC": {
