@@ -24,9 +24,10 @@ const TeamCard: React.FC<TeamCardProps> = ({ name, designation,designation2, ima
                 />
             </div>
             <div className={styles.teamCard__content}>
-                <h3 className={styles.teamCard__name}>{name}</h3>
-                <p className={styles.teamCard__designation}>{designation}</p>
-                <p className={styles.teamCard__designation}>{designation2}</p>
+            <h3 className={styles.teamCard__name}>{name}</h3>
+            <p className={styles.teamCard__designation}>{designation}</p>
+            {designation2 && <p className={styles.teamCard__designation}>{designation2}</p>}
+
                 {linkedIn && (
                 <a
                     href={linkedIn}

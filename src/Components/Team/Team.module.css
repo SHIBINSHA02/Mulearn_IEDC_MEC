@@ -23,6 +23,20 @@
     width: auto;
 }
 
+.showMoreBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ad58ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.showMoreBtn:hover {
+    background-color:#8e3dd4 ;
+}
+
 /* Media queries */
 @media screen and (max-width: 1024px) {
     .teamMembersDetailsWrapper {
