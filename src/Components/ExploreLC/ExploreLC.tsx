@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FilloutPopupEmbed } from "@fillout/react";
 import "@fillout/react/style.css";
 import styles from "./ExploreLC.module.css";
