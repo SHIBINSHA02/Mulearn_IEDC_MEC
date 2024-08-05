@@ -45,13 +45,9 @@ const Navbar = () => {
                     {navContent.map((content, i) => (
                         <a href={`#${content}`} key={i.toString() + content}>
                             <p
+                                className={`${styles.navbarItem} ${window.location.href.includes(`#${content}`) ? styles.selected : ''}`}
                                 style={{
-                                    borderBottom: window.location.href.includes(
-                                        `#${content}`
-                                    )
-                                        ? "4px solid #B3B3FF"
-                                        : "",
-                                    height: "18px",
+                                    borderBottom: window.location.href.includes(`#${content}`) ? "4px solid #B3B3FF" : "",
                                     fontSize: "18px",
                                     fontWeight: 600,
                                 }}
@@ -75,13 +71,11 @@ const Navbar = () => {
                         {navContent.map((content, i) => (
                             <a href={`#${content}`} key={i.toString() + content}>
                                 <p
+                                    className={`${styles.navbarItem} ${window.location.href.includes(`#${content}`) ? styles.selected : ''}`}
                                     style={{
-                                        borderBottom: window.location.href.includes(
-                                            `#${content}`
-                                        )
-                                            ? "4px solid #B3B3FF"
-                                            : "",
-                                        height: "18px",
+                                        borderBottom: window.location.href.includes(`#${content}`) ? "4px solid #B3B3FF" : "",
+                                        fontSize: "18px",
+                                        fontWeight: 600,
                                     }}
                                 >
                                     {content}
