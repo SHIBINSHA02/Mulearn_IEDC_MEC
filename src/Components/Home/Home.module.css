@@ -108,11 +108,8 @@
     width: 100%;
   }
 
-
   .textWrapper p {
- 
     font-size: 2.5vw;
-    
   }
 }
 
@@ -127,8 +124,51 @@
     width: 100%;
   }
 
-
   .textWrapper p {
     font-size: 2.4vw;
+  }
+
+  .contentWrapper img {
+    width: 100%; /* Ensure image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+.textWrapper p {
+  margin-top: 3vw;
+  font-size: 1.2vw;
+  width: 35vw;
+  text-align: left;
+  line-height: 1.8; /* Increase line height for better spacing */
+  margin-bottom: 2vw; /* Add more margin at the bottom for more space between paragraphs */
+  word-spacing: 0.5vw; /* Add space between words */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 900px) {
+  .textWrapper p {
+    font-size: 2.4vw;
+    width: 80%;
+    line-height: 2; /* Further increase line height for better spacing on smaller screens */
+    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
+    word-spacing: 1vw; /* Add space between words */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .textWrapper p {
+    font-size: 2.5vw;
+    line-height: 2; /* Further increase line height for better spacing on smaller screens */
+    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
+    word-spacing: 1vw; /* Add space between words */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textWrapper p {
+    font-size: 2.4vw;
+    line-height: 2; /* Further increase line height for better spacing on smaller screens */
+    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
+    word-spacing: 1vw; /* Add space between words */
   }
 }
