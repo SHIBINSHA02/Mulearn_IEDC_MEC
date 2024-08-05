@@ -1,5 +1,5 @@
 .teamWrapper {
-    padding: 2rem; /* Space from left and right sides */
+    padding: 2rem;
     background-color: #fff;
     text-align: center;
 }
@@ -20,7 +20,21 @@
 }
 
 .teamCardWrapper {
-    width: 100%;
+    width: auto;
+}
+
+.showMoreBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ad58ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.showMoreBtn:hover {
+    background-color:#8e3dd4 ;
 }
 
 /* Media queries */

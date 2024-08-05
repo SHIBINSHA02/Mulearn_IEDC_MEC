@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 * {
   scroll-behavior: smooth;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans";
+  /* border: 1px solid red; /* Uncomment this line for debugging */
 }
 
 ::-webkit-scrollbar {
@@ -25,4 +32,12 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
+  overflow-x: hidden; /* Ensures no overflow from child elements */
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
 }

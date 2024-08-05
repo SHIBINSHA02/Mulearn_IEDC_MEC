@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Team.module.css';
 import data from '../../../data.json';
 import TeamCard from './TeamCard/TeamCard';
 
-const Team: React.FC = () => {
-  const Data = Object.values(data.team);
+interface TeamMember {
+  name: string;
+  designation: string;
+  designation2?: string;
+  image: string;
+  linkedIn: string;
+}
 
-  const renderTeamCards = (teamData: any) => {
-    return Object.keys(teamData).map((key) => (
-      <div key={key} className={styles.teamCardWrapper}>
+const Team: React.FC = () => {
+  const [showMore, setShowMore] = useState(false);
+  const Data: TeamMember[] = Object.values(data.team);
+
+  const renderTeamCards = (teamData: TeamMember[], showAll: boolean) => {
+    const visibleData = showAll ? teamData : teamData.slice(0, 6);
+    return visibleData.map((member, index) => (
+      <div key={index} className={styles.teamCardWrapper}>
         <TeamCard
-          name={teamData[key].name}
-          designation={teamData[key].designation}
-          designation2={teamData[key].designation2}
-          image={teamData[key].image}
-          linkedIn={teamData[key].linkedIn}
+          name={member.name}
+          designation={member.designation}
+          designation2 ={member.designation2|| ''}
+          image={member.image}
+          linkedIn={member.linkedIn}
         />
       </div>
     ));
@@ -25,8 +35,13 @@ const Team: React.FC = () => {
       <h1>Our Team</h1>
       <div className={styles.teamBodyWrapper} id="IEDC">
         <div className={styles.teamMembersDetailsWrapper}>
-          {renderTeamCards(Data)}
+          {renderTeamCards(Data, showMore)}
         </div>
+        {!showMore && (
+          <button className={styles.showMoreBtn} onClick={() => setShowMore(true)}>
+            Show More
+          </button>
+        )}
       </div>
     </div>
   );
