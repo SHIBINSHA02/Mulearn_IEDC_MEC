@@ -38,7 +38,7 @@
 
 .textWrapper h1 {
   margin-top: 15vh;
-  font-size: 5.5vw;
+  font-size: 5vw;
   font-weight: 400;
 }
 
@@ -61,13 +61,14 @@
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .contentWrapper {
     flex-direction: column;
     align-items: center; /* Ensure alignment is centered */
   }
 
   .textWrapper {
+    margin-top: -10vh;
     align-items: center; /* Center the text */
     text-align: center; /* Center text alignment */
   }
@@ -82,10 +83,12 @@
   }
 
   .textWrapper h2 {
-    font-size: 3vw;
-    margin-top: 1vw;
-    width: 90%;
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 3vh;
+    width: 100%;
   }
+
 
   .textWrapper p {
     font-size: 2.4vw;
@@ -93,9 +96,9 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .textWrapper {
-    margin-top: 2vh;
+    margin-top: -10vh;
   }
 
   .textWrapper h1 {
@@ -104,9 +107,11 @@
 
   .textWrapper h2 {
     font-size: 4vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 3vh;
     width: 100%;
   }
+
 
   .textWrapper p {
     font-size: 2.5vw;
@@ -114,61 +119,65 @@
 }
 
 @media screen and (max-width: 500px) {
+  .textWrapper {
+    margin-top: -13vh;
+  }
+
   .textWrapper h1 {
     font-size: 9.5vw;
   }
 
   .textWrapper h2 {
     font-size: 4vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 3vh;
     width: 100%;
   }
 
-  .textWrapper p {
-    font-size: 2.4vw;
-  }
-
   .contentWrapper img {
-    width: 100%; /* Ensure image takes full width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 }
 
 .textWrapper p {
-  margin-top: 3vw;
-  font-size: 1.2vw;
+  margin-top: 5vw;
+  font-size: 1.3vw;
   width: 35vw;
   text-align: left;
-  line-height: 1.8; /* Increase line height for better spacing */
-  margin-bottom: 2vw; /* Add more margin at the bottom for more space between paragraphs */
-  word-spacing: 0.5vw; /* Add space between words */
+  line-height: 1.5; 
+  margin-bottom: 2vw; 
+  word-spacing: 0.5vw; 
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .textWrapper p {
-    font-size: 2.4vw;
-    width: 80%;
-    line-height: 2; /* Further increase line height for better spacing on smaller screens */
-    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
-    word-spacing: 1vw; /* Add space between words */
+    font-size: 4vw;
+    width: 90%;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3vw; 
+    word-spacing: 1vw; 
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .textWrapper p {
-    font-size: 2.5vw;
-    line-height: 2; /* Further increase line height for better spacing on smaller screens */
-    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
-    word-spacing: 1vw; /* Add space between words */
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3vw; 
+    word-spacing: 1vw; 
   }
 }
 
 @media screen and (max-width: 500px) {
   .textWrapper p {
-    font-size: 2.4vw;
-    line-height: 2; /* Further increase line height for better spacing on smaller screens */
-    margin-bottom: 3vw; /* Add more margin at the bottom for more space between paragraphs */
-    word-spacing: 1vw; /* Add space between words */
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3vw; 
+    word-spacing: 1vw; 
   }
 }
